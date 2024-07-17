@@ -1,3 +1,4 @@
+
 body {
     font-family: 'Helvetica Neue', sans-serif;
     margin: 0;
@@ -116,7 +117,6 @@ footer {
     transform: translateY(-3px);
 }
 
-/* Estilos adicionales para imitar las animaciones de los botones de contacto */
 .button.github {
     background-color: #333;
 }
@@ -147,4 +147,25 @@ footer {
 
 .button.cv:hover {
     background-color: #3367d6;
+}
+
+@media (max-width: 768px) {
+    nav ul {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .tech-icons {
+        flex-direction: column;
+    }
+}
+
+@media (max-width: 480px) {
+    .button {
+        padding: 0.5rem;
+    }
+
+    .social-buttons {
+        flex-direction: column;
+    }
 }
