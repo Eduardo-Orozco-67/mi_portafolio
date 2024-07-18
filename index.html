@@ -10,50 +10,52 @@
 <body>
     <header>
         <nav>
-            <ul>
-                <li><a href="#about">About</a></li>
+            <input type="checkbox" id="menu-toggle">
+            <label for="menu-toggle" class="menu-icon">&#9776;</label>
+            <ul class="menu">
+                <li><a href="#about">About me</a></li>
                 <li><a href="#projects">Projects</a></li>
                 <li><a href="#experience">Experience</a></li>
                 <li><a href="#certifications">Certifications</a></li>
                 <li><a href="#achievements">Achievements</a></li>
-                <li><a href="#tech-stack">Tech Stack</a></li>
+                <li><a href="#tech-stack">Tech-stack</a></li>
                 <li><a href="#contact">Contact</a></li>
             </ul>
         </nav>
     </header>
     <main>
         <section id="about" class="section">
-            <h2>Sobre Mí</h2>
+            <h2>About me</h2>
             <p>Hola, soy José Eduardo Orozco Cárdenas, un desarrollador apasionado e Ingeniero de software amante de la tecnología y el impacto social. Actualmente estoy involucrado en varios proyectos tecnológicos y educativos. Bienvenido a mi portafolio personal.</p>
         </section>
         <section id="projects" class="section">
             <h2>Projects</h2>
             <div class="project">
                 <h3>Numtura</h3>
-                <p>Numtura is an educational app that makes learning mathematics, geometry, and physics fun through interactive space-themed adventures.</p>
-                <p>Developed in Swift using SwiftUI and Xcode as the IDE.</p>
-                <a href="https://github.com/Eduardo-Orozco-67/NUMTURA" target="_blank" class="button">View on GitHub</a>
+                <p>Numtura es una aplicación educativa que hace que aprender matemáticas, geometría y física sea divertido a través de aventuras temáticas espaciales interactivas.</p>
+                <p>Desarrollado en Swift usando SwiftUI y Xcode como el IDE.</p>
+                <a href="https://github.com/Eduardo-Orozco-67/NUMTURA" target="_blank" class="button">Ver en GitHub</a>
             </div>
             <div class="project">
-                <h3>Construction Project</h3>
-                <p>This is a REST API for managing a construction company, optimizing processes and improving operational efficiency.</p>
-                <p>Provides CRUD operations (Create, Read, Update, Delete) for managing construction projects.</p>
-                <p>Created using FastAPI in Python as the framework and PostgreSQL as the database.</p>
-                <p>JWT is used for authentication.</p>
-                <a href="https://github.com/Eduardo-Orozco-67/ProyectoConstrutora" target="_blank" class="button">View on GitHub</a>
+                <h3>Proyecto Constructor</h3>
+                <p>Una API REST para gestionar una empresa constructora, optimizando procesos y mejorando la eficiencia operativa.</p>
+                <p>Proporciona operaciones CRUD (Crear, Leer, Actualizar, Eliminar) para gestionar proyectos de construcción.</p>
+                <p>Creado usando FastAPI en Python como framework y PostgreSQL como base de datos.</p>
+                <p>JWT se usa para autenticación.</p>
+                <a href="https://github.com/Eduardo-Orozco-67/ProyectoConstrutora" target="_blank" class="button">Ver en GitHub</a>
             </div>
             <div class="project">
-                <h3>School Management System</h3>
-                <p>An Integrated School Administration System to enhance academic management.</p>
-                <p>The API provides access to student-related data, allowing for personal profile definition and management of important documents, such as birth certificates, CURP, and proof of residence.</p>
-                <p>Created using Spring Boot in Java as the framework and PostgreSQL as the database.</p>
-                <a href="https://github.com/Eduardo-Orozco-67/SIAE_2" target="_blank" class="button">View on GitHub</a>
+                <h3>Sistema de Administración Escolar</h3>
+                <p>Un Sistema de Administración Escolar Integrado para mejorar la gestión académica.</p>
+                <p>La API proporciona acceso a datos relacionados con los estudiantes, permitiendo la definición de perfiles personales y la gestión de documentos importantes, como actas de nacimiento, CURP y comprobantes de domicilio.</p>
+                <p>Creado usando Spring Boot en Java como framework y PostgreSQL como base de datos.</p>
+                <a href="https://github.com/Eduardo-Orozco-67/SIAE_2" target="_blank" class="button">Ver en GitHub</a>
             </div>
             <div class="project">
                 <h3>MP Ecommerce PHP</h3>
-                <p>An e-commerce platform developed in PHP for small and medium-sized enterprises.</p>
-                <p>Integrates the MercadoPago payment gateway, used to obtain the MP Checkout Pro certification.</p>
-                <a href="https://github.com/Eduardo-Orozco-67/MP_ECOMERCE-PHP" target="_blank" class="button">View on GitHub</a>
+                <p>Una plataforma de comercio electrónico desarrollada en PHP para pequeñas y medianas empresas.</p>
+                <p>Integra la pasarela de pago MercadoPago, utilizada para obtener la certificación MP Checkout Pro.</p>
+                <a href="https://github.com/Eduardo-Orozco-67/MP_ECOMERCE-PHP" target="_blank" class="button">Ver en GitHub</a>
             </div>
         </section>
         
@@ -75,7 +77,7 @@
                 <!-- Añadir logros aquí -->
             </ul>
         </section>
-        <section id="tech-stack">
+        <section id="tech-stack" class="section">
             <h2>Tech Stack</h2>
             <div class="tech-icons">
                 <!-- Tech stack icons -->
@@ -222,22 +224,21 @@
                   <a href="https://developer.apple.com/xcode/" target="_blank" rel="noreferrer">
                     <img src="https://cdn.simpleicons.org/xcode/147EFB" height="40" alt="xcode logo" />
                   </a>
-                  
             </div>
         </section>
         <section id="contact" class="section">
-            <h2>Contact</h2>
-            <p>Feel free to reach out to me through any of the following channels:</p>
+            <h2>Contacto</h2>
+            <p>Siéntete libre de contactarme a través de cualquiera de los siguientes canales:</p>
             <ul class="social-buttons">
                 <li><a href="https://github.com/Eduardo-Orozco-67" target="_blank" class="button github">GitHub</a></li>
                 <li><a href="https://linkedin.com/in/jeoc03" target="_blank" class="button linkedin">LinkedIn</a></li>
                 <li><a href="mailto:eduardo.orozco66@unach.mx" class="button email">Email</a></li>
-                <li><a href="https://drive.google.com/file/d/1ZtCFVb8-2jRlrRBPxq9pROFYIEx_26Rr/view?usp=sharing" target="_blank" class="button cv">Download CV</a></li>
+                <li><a href="URL_DEL_CV" target="_blank" class="button cv">Descargar CV</a></li>
             </ul>            
         </section>
     </main>
     <footer>
-        <p>&copy; 2024 José Eduardo Orozco Cárdenas. All rights reserved.</p>
+        <p>&copy; 2024 José Eduardo Orozco Cárdenas. Todos los derechos reservados.</p>
     </footer>
 </body>
 </html>
